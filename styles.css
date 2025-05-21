@@ -134,7 +134,8 @@ header{
     .invitation-card {
       padding: 20px 15px;
       font-size: 16px;
-      margin: 20px;
+      margin: 40px;
+      margin-top: 256px;
     }
   }
   
