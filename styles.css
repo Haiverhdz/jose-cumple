@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(./images/IMG_9637.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh; 
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+   background: rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+   max-width: 400px;
+   padding: 30px;
+ }
+
+h1 {
+   margin-bottom: 1rem;
+   font-size: 2rem;
+ }
+
+ p {
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
+ }
+
+.btn {
+    background: white;
+    color: #f78fb3;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+ }
+
+.btn:hover {
+    background: #fcdde4;
+  }
+
+header{
+    height: 300px;
+    width: 100%;
+}
+
+.container-ppal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .container-ppal {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(./images/IMG_9637.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        width: auto;
+        height: 50px;
+    }
+}
+
+.invitation-card {
+    background-color: rgba(0, 0, 0, 0.5); /* fondo transparente oscuro */
+    padding: 30px 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeInUp 1s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .invitation-card:hover {
+    transform: scale(1.03);
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    .invitation-card {
+      padding: 20px 15px;
+      font-size: 16px;
+      margin: 20px;
+    }
+  }
+  
+  
